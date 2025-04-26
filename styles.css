@@ -323,6 +323,21 @@ header {
     outline: 2px solid #e74c3c;
 }
 
+form button {
+    cursor: pointer;
+    display: inline-block;
+    margin: 1.2rem 0;
+    padding: 1rem 0;
+    border: 1px solid #1abc9c;
+    background-color: #e74c3c;
+    box-shadow: 0 2px 5px #1abc9c;
+    color: #ecf0f1;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 100%;
+}
+
 /* footer */
 footer {
     text-align: center;
