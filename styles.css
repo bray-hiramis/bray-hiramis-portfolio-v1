@@ -143,11 +143,13 @@ header {
 
 .hero-text h1 {
     font-size: 4rem;
+    display: block;
 }
 
 .hero-text p {
     font-size: 2rem;
     font-weight: 600;
+    display: block;
 }
 
 .hero-text a {
