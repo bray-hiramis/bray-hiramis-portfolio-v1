@@ -137,7 +137,12 @@ header {
     border-radius: 50%;
 }
 
-.hero-text h1 {
+.hero-name {
+    height: 100%;
+    width: auto;
+}
+
+.hero-name h1 {
     font-size: 4.5rem;
     margin: 2rem 0;
 }
