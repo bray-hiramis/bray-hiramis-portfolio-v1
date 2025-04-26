@@ -137,10 +137,6 @@ header {
     border-radius: 50%;
 }
 
-.hero-text {
-    /* flex-grow: 1; */
-}
-
 .hero-text h1 {
     font-size: 4rem;
     display: block;
