@@ -14,7 +14,7 @@
         <!-- header: logo and links -->
         <header>
             <div id="logo">
-                <p><span class="highlight">bray</span>H</p>
+                <p aria-hidden="true"><a href="#hero"><span class="highlight">bray</span>H</a></p>
             </div>
             <nav id="navbar">
                 <ul>
@@ -29,16 +29,93 @@
         <!-- Hero section: left: image, right: text -->
         <section id="hero">
             <div class="hero-img">
-                <img src="./img/me in blue tone.webp" alt="">
+                <img src="./img/me in blue tone.webp" alt="brayH profile picture.">
             </div>
             <div class="hero-text">
                 <h1><span class="highlight">bray</span>H</h1>
                 <p>Aspiring Web Developer</p>
-                <a href="#">Contact Me</a>
+                <a href="#contact">Contact Me</a>
             </div>
         </section>
-    </div>
-    
 
+        <!-- about me -->
+        <section id="about">
+            <div class="about-me">
+                <h2>About <span class="highlight">Me</span></h2>
+                <p>I'm a passionate learner on my journey to becoming a web developer. Excited to build, create, and bring ideas to life using HTML, CSS, and JavaScript. Focused on mastering full-stack development to build accessible and responsive websites. Eager to grow and contribute!</p>
+            </div>
+            <div class="about-image"></div>
+        </section>
+
+        <!-- skills -->
+        <section id="skills">
+            <div class="skills-tech">
+                <h2><span class="highlight">Tech</span>nologies</h2>
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+            </div>
+            <div class="skills-desc">
+                <p>Exploring and building my web development toolkit.</p>
+            </div>
+        </section>
+
+        <!-- my projects -->
+        <section id="projects">
+            <h2>My <span class="highlight">Projects</span></h2>
+            <div class="projects-set">
+                <div class="proj-card proj-1">
+                    <div class="proj-img">
+                        <img src="./img/Screenshot From 2025-04-26 23-23-59.png" alt="Project number one.">
+                    </div>
+                    <div class="proj-card proj-desc">
+                        <h3>The Daily Coffee</h3>
+                        <p>A static website for an imaginary coffee shop. This is part of study on learning web development.</p>
+                        <a href="https://bray-hiramis.github.io/The-Daily-Coffee/" target="_blank"><i class="fa-brands fa-github"></i> Visit Site</a>
+                    </div>
+                </div>
+                <div class="proj-card proj-2">
+                    <div class="proj-img">
+                        <img src="./img/Screenshot From 2025-04-26 23-28-23.png" alt="Project number two.">
+                    </div>
+                    <div class="proj-desc">
+                        <h3>AeroSwift X1</h3>
+                        <p>Drone for Sale Landing Page 🚁 This is a simple responsive landing page for a fictional drone called AeroSwift X1. It was created as a front-end mini project to practice and apply basic HTML and CSS skills.</p>
+                        <a href="https://bray-hiramis.github.io/project-AeroSwift-Drone-for-sale/" target="_blank"><i class="fa-brands fa-github"></i> Visit Site</a>
+                    </div>
+                </div>
+                <div class="proj-card proj-3">
+                    <div class="proj-img">
+                        <img src="./img/Screenshot From 2025-04-26 23-29-01.png" alt="Project number three.">
+                    </div>
+                    <div class="proj-desc">
+                        <h3>My Wellness Journal</h3>
+                        <p>A personal wellness-themed webpage built as a Flexbox capstone project, designed to reinforce my understanding of CSS layout techniques. This journal-inspired website includes sections for mood tracking, journaling, motivational quotes, and a relaxing mood board.</p>
+                        <a href="https://bray-hiramis.github.io/project-my-wellness-journal-page/" target="_blank"><i class="fa-brands fa-github"></i> Visit Site</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact -->
+        <section id="contact">
+            <h2><span class="highlight">Get In</span> Touch.</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <label for="email">Enter your email:</label>
+                    <input type="email" name="email" id="email" placeholder="e.g. johndoe@example.com" required>
+                </fieldset>
+                <fieldset>
+                    <label for="message">Enter your message:</label>
+                    <textarea name="message" id="message" rows="15"></textarea>
+                </fieldset>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>brayH 2025 &copy; | Build in HTML and CSS</p>
+    </footer>
+    
+    <script src="https://kit.fontawesome.com/f911defdbe.js" crossorigin="anonymous"></script>
 </body>
 </html>
