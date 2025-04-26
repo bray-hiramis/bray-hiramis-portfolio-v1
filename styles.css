@@ -378,6 +378,10 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+    #navbar a {
+        font-size: 0.9rem;
+    }
+
     #hero {
         justify-content: flex-start;
     }
@@ -393,6 +397,10 @@ footer {
 }
 
 @media screen and (max-width: 641px) {
+    #navbar a {
+        font-size: 0.6rem;
+    }
+    
     header {
         justify-content: center;
     }
