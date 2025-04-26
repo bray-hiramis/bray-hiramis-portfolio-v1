@@ -1,0 +1,140 @@
+::before,
+::after,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #2c3e50;
+    font-family: "Inter", sans-serif;
+    color: #ecf0f1;
+    line-height: 1.5rem;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #ecf0f1;
+}
+
+img {
+    /* display: block; */
+    max-width: 100%;
+    height: auto;
+    object-fit:fill;
+}
+
+/* Utilities */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.highlight {
+    color: #e74c3c;
+}
+
+.active {
+    background-color: #2c3e50;
+    border-bottom: 2px solid #1abc9c;
+}
+
+/* header: logo and nav */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    background-color: #182838;
+    color: #fff;
+    margin: 1rem 0;
+    border-radius: 10px;
+}
+
+#logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar a {
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    transition: all .1s ease;
+}
+
+#navbar a:hover {
+    background-color: #2c3e50;
+    border-bottom: 2px solid #1abc9c;
+}
+
+#navbar a:active {
+    background-color: #e74c3c;
+    border-bottom: none;
+}
+
+/* Hero: main image and main text */
+#hero {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* gap: 2rem; */
+    background-color: #182838;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.hero-img {
+    max-width: 300px;
+}
+
+.hero-img img {
+    border-radius: 50%;
+}
+
+.hero-text {
+    /* flex-grow: 1; */
+}
+
+.hero-text h1 {
+    font-size: 4rem;
+}
+
+.hero-text p {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.hero-text a {
+    display: inline-block;
+    margin: 2rem 0;
+    padding: 1rem 2rem;
+    border: 1px solid #1abc9c;
+    border-radius: 10px;
+    background-color: #2c3e50;
+    box-shadow: 0 2px 5px #1abc9c;
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition: all .5s ease;
+}
+
+.hero-text a:hover {
+    cursor: pointer;
+    transform: translate(0.9rem);
+}
