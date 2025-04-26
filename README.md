@@ -34,4 +34,4 @@ It's designed to adapt its layout and appearance to provide an optimal viewing e
 ## How to View
 
 You can view the live deployed website here:
-[https://bray-hiramis.github.io/project-mini-portfolio/]
+[https://bray-hiramis.github.io/bray-hiramis-portfolio-v1/]
